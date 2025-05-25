@@ -1,5 +1,4 @@
- <style>
-   body, html {
+ body, html {
       margin: 0;
       padding: 0;
       height: 100%;
@@ -20,7 +19,6 @@
       pointer-events: none;
       background-color: #0a0a0a;
     }
-    /* Prism overrides for better contrast */
     pre[class*="language-"] {
       background: #1a1a1a !important;
       border-radius: 0.5rem;
@@ -32,7 +30,6 @@
       font-family: 'Fira Code', monospace, monospace !important;
       position: relative;
     }
-    /* Buttons container inside pre */
     .code-buttons {
       position: absolute;
       bottom: 0.5rem;
@@ -57,11 +54,10 @@
     .code-buttons button:hover {
       background: #444;
     }
-    /* Responsive iframe container for YouTube */
     .video-container {
       position: relative;
       width: 100%;
-      padding-bottom: 56.25%; /* 16:9 */
+      padding-bottom: 56.25%;
       height: 0;
       overflow: hidden;
       border-radius: 0.75rem;
@@ -76,30 +72,25 @@
       height: 100%;
       border-radius: 0.75rem;
     }
-    /* Advertisement container */
     .ad-container {
       display: flex;
       justify-content: center;
       margin: 1.5rem 0;
     }
-    /* Hide both ads by default */
     .ad-desktop,
     .ad-mobile {
       display: none;
     }
-    /* Show desktop ad on screens >= 1024px */
     @media (min-width: 1024px) {
       .ad-desktop {
         display: block;
       }
     }
-    /* Show mobile ad on screens < 1024px */
     @media (max-width: 1023px) {
       .ad-mobile {
         display: block;
       }
     }
-    /* Scrollbar for code block */
     pre::-webkit-scrollbar {
       height: 8px;
     }
@@ -110,7 +101,6 @@
     pre::-webkit-scrollbar-track {
       background: #1a1a1a;
     }
-    /* Footer styling */
     footer {
       text-align: center;
       padding: 1.5rem 1rem;
@@ -120,7 +110,6 @@
       z-index: 10;
       position: relative;
     }
-    /* Description box styling */
     .description-box {
       background: #111;
       border: 1px solid #222;
@@ -133,4 +122,3 @@
       max-width: 100%;
       margin-bottom: 2rem;
     }
-  </style>
