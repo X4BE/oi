@@ -1,4 +1,8 @@
-<script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js">
+  </script>
+  <script>
    // Matrix rain effect
     (() => {
       const canvas = document.getElementById('matrix-canvas');
